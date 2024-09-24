@@ -23,3 +23,11 @@ git push -u origin main
 원격 저장소 위치:
 https://github.com/kim-sung-pyo/Hello24.git
 
+…or create a new repository on the command line
+echo "# Hello24" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kim-sung-pyo/Hello24.git
+git push -u origin main
